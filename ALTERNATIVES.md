@@ -23,6 +23,6 @@ Having a graphical user interface.
 Ability to convert multiple regions at once, by uploading a data file.
 
 **Disadvantages**
-Conversion is not done instantly, ad jobs are added to a queue. I can imagine that this would also take a longer time as you scale up.
+Conversion is not done instantly, as jobs are added to a queue. I can imagine that this would also take a longer time as you scale up.
 would be limited in what and how you can define the details of your request as you are able to through the API
 Users need genome browser software or similar to view the outputted data file.
