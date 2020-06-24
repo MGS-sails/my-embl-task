@@ -11,7 +11,10 @@ PERL5LIB=${PERL5LIB}:${HOME}/path-to-the-modules-folder/modules
 3. Run the main.pl file using the command: perl main.pl in your terminal.
 
 The main.pl script accepts optional arguments, which are the region name you intend to convert, the start and end coordinates.
-for example: perl main.pl 10 25000 30000
+for example: 
+```
+perl main.pl 10 25000 30000
+```
 this will convert the coordinates on Chromosome 10 (from 25000 to 30000) from the GRCh38 assembly to GRCh37.
 If arguments are not passed, it defaults to what was mentioned on the task description, which is the Chromosome 10, from 25000 to 30000.
 
